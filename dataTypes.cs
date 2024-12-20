@@ -102,11 +102,11 @@ namespace practice.DataTypes
             string b = "true";
             string test = "0.6438";
             Console.WriteLine($" str1 : {str1} after parse to int : {int.Parse(str1)}");
-            Console.WriteLine($" invalide string  : {invalide} after parse to int : {int.Parse(invalide)}");
-            Console.WriteLine($" float number  : {fnum} after parse to int : {int.Parse(invalide)}");
-            Console.WriteLine($" bool  : {b} after parse to int : {int.Parse(invalide)}");
-            Console.WriteLine($" test : {test} after parse to int : {int.Parse(invalide)}");
+            //Console.WriteLine($" invalide string  : {invalide} after parse to int : {int.Parse(invalide)}");
+            //Console.WriteLine($" float number  : {fnum} after parse to int : {int.Parse(invalide)}");
+            //Console.WriteLine($" bool  : {b} after parse to int : {int.Parse(invalide)}");
+            //Console.WriteLine($" test : {test} after parse to int : {int.Parse(invalide)}");
         }
 
     }
-}
+//}
