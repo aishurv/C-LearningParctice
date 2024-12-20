@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace practice.DataTypes
-{
+//namespace practice.dataTypes
+//{
     public class dataTypes
     {
         public int a;
@@ -102,10 +102,14 @@ namespace practice.DataTypes
             string b = "true";
             string test = "0.6438";
             Console.WriteLine($" str1 : {str1} after parse to int : {int.Parse(str1)}");
-            //Console.WriteLine($" invalide string  : {invalide} after parse to int : {int.Parse(invalide)}");
+            Console.WriteLine($" invalide string  : {invalide} after TryParse to int status : {int.TryParse(invalide,num)}  parse valuse : {num}");
             //Console.WriteLine($" float number  : {fnum} after parse to int : {int.Parse(invalide)}");
             //Console.WriteLine($" bool  : {b} after parse to int : {int.Parse(invalide)}");
             //Console.WriteLine($" test : {test} after parse to int : {int.Parse(invalide)}");
+
+            Console.WriteLine($" float number  : {fnum} after TryParse to int status : {int.TryParse(fnum, num)}  parse valuse : {num}");
+            Console.WriteLine($" bool  : {b} after TryParse to int status : {int.tryParse(b, num)}  parse valuse : {num}");
+            Console.WriteLine($" test : {test} after TryParse to int status : {int.tryParse(test, num)}  parse valuse : {num}");
         }
 
     }
