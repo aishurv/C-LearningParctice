@@ -56,7 +56,7 @@
             n = new DateTime();   // Default value is DateTime.MinValue (January 1, 0001 at 00:00:00.000)
             s = new string(' ');  // Default value is empty string (new string for initialization)
         }
-        public void checkdatatypes()
+    public void checkdatatypes()
         {
 
             
