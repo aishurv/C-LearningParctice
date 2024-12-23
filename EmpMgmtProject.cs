@@ -8,34 +8,34 @@ namespace PracticeProject.EmpMgmt
         public EmpMgmtProject()
         {
             
-            Employee bethany = new StoreManager("Veena", "Kore", "veena@emp.com", new DateTime(2024, 1, 16), 25);
-            Manager mary = new Manager("sneha", "mali", "sneha@emp.com", new DateTime(2024, 1, 16), 30);
-            JuniorResearcher bobJunior = new JuniorResearcher("geeta", "kore", "geeta@emp.com", new DateTime(2024, 1, 23), 17);
-            Employee kevin = new StoreManager("reva", "mali", "reva@emp.com", new DateTime(2024, 12, 12), 10);
-            Employee kate = new StoreManager("megha", "khane", "megha@emp.com", new DateTime(2024, 8, 8), 10);
+            Employee veena = new StoreManager("Veena", "Kore", "veena@emp.com", new DateTime(2024, 1, 16), 25);
+            Manager sneha = new Manager("sneha", "mali", "sneha@emp.com", new DateTime(2024, 1, 16), 30);
+            JuniorResearcher geeta = new JuniorResearcher("geeta", "kore", "geeta@emp.com", new DateTime(2024, 1, 23), 17);
+            Employee reva = new StoreManager("reva", "mali", "reva@emp.com", new DateTime(2024, 12, 12), 10);
+            Employee megha = new StoreManager("megha", "khane", "megha@emp.com", new DateTime(2024, 8, 8), 10);
 
-            bethany.DisplayEmployeeDetails();
-            bethany.PerformWork();
-            bethany.PerformWork();
-            bethany.PerformWork();
-            bethany.ReceiveWage();
+            veena.DisplayEmployeeDetails();
+            veena.PerformWork();
+            veena.PerformWork();
+            veena.PerformWork();
+            veena.ReceiveWage();
 
-            mary.DisplayEmployeeDetails();
-            mary.PerformWork();
-            mary.PerformWork();
-            mary.PerformWork();
-            mary.AttendManagementMeeting();
-            mary.ReceiveWage();
+            sneha.DisplayEmployeeDetails();
+            sneha.PerformWork();
+            sneha.PerformWork();
+            sneha.PerformWork();
+            sneha.AttendManagementMeeting();
+            sneha.ReceiveWage();
 
-            bobJunior.ResearchNewPieTastes(5);
-            bobJunior.ReceiveWage();
+            geeta.ResearchNewPieTastes(5);
+            geeta.ReceiveWage();
 
             Employee[] employees = new Employee[5];
-            employees[0] = bethany;
-            employees[1] = mary;
-            employees[2] = bobJunior;
-            employees[3] = kevin;
-            employees[4] = kate;
+            employees[0] = veena;
+            employees[1] = sneha;
+            employees[2] = geeta;
+            employees[3] = reva;
+            employees[4] = megha;
 
             foreach (var employee in employees)
             {

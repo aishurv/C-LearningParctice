@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel.DataAnnotations;
 using PracticeProject.EmpMgmt;
-
+using OnlineAuctionSys;
 
 //dataTypes dt = new dataTypes(); // To check default values use new dataTypes(1);
 //dt.checkdatatypes();
@@ -11,4 +11,6 @@ using PracticeProject.EmpMgmt;
 
 //arrayAndCollections.array(); 
 
-EmpMgmtProject empMgmtProject = new EmpMgmtProject();
+//EmpMgmtProject empMgmtProject = new EmpMgmtProject();
+
+OnlineAuctionSystem sample = new OnlineAuctionSystem();
