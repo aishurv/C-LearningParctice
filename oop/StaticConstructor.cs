@@ -32,21 +32,29 @@ namespace oop
         {
             Console.WriteLine("Executes after instance constructor. static constructor");
         }
-        public static Singleton Instance => instance;
+        public static void sample()
+        {
+            Console.WriteLine("Sample Static Method called !");
+        }
+        //public static Singleton Instance => instance;
     }
 
     public class Singleton1
     {
-        public static Singleton1 obj1 = new Singleton1();
-        public Singleton1()
+        public static staticConstructor obj1 = new staticConstructor();
+        public Singleton1(string obj )
         {
-            Console.WriteLine("Executes before static constructor. Public constructor");
+            Console.WriteLine($"Executes before static constructor. Public constructor {obj}");
         }
-
         static Singleton1()
         {
             Console.WriteLine("Executes after instance constructor. static constructor");
         }
-        public static Singleton1 obj => obj1;
+        public static void sample()
+        {
+            Console.WriteLine("Sample Static Method called !");
+
+        }
+        //public static Singleton1 obj => obj1;
     }
 }

@@ -34,5 +34,8 @@ var obj3 = new staticConstructor();
 Console.WriteLine("obj 3 initilization end !");
 */
 
-var s1 = Singleton.Instance;
-var s =  Singleton1.obj;
+//var s1 = Singleton.Instance;
+//var s =  Singleton1.obj;
+var s = new Singleton1("program.cs object");
+//Singleton.sample();
+//Singleton1.sample();
