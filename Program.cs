@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel.DataAnnotations;
+using linq;
 //using PracticeProject.EmpMgmt;
 //using OnlineAuctionSys;
 using oop;
@@ -36,6 +37,23 @@ Console.WriteLine("obj 3 initilization end !");
 
 //var s1 = Singleton.Instance;
 //var s =  Singleton1.obj;
-var s = new Singleton1("program.cs object");
+//var s = new Singleton1("program.cs object");
 //Singleton.sample();
 //Singleton1.sample();
+
+//aishu b;//= new aishu("main object");
+//Console.WriteLine(aishu.a);
+//static class aishu
+//{
+//    public static int a=10;
+//    static aishu()
+//    {
+//        //aishu a = new aishu("static constructor object");
+//        Console.WriteLine("in static Constuctor !");
+//    }
+
+//}
+
+
+// --------- LINQ -----------------
+sampleQuery.stringGroupBy();
